@@ -5,9 +5,10 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
+app.use(express.static(__dirname + '/public')); // What information is public?
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.sendFile(__dirname + "/public/start.html");
 });
 
 app.listen(process.env.PORT || 3000, () => {
