@@ -11,14 +11,24 @@
     <h1>Resistabot</h1>
     <h2>Game Setup</h2>
     <form action="startgame" method="POST">
+      <h3>Player Names:</h3>
       <label for="player1">Player 1:</label><br>
-      <input type="text" id="player1" name="player1"><br>
+      <input type="text" id="player1" name="player1"><br><br>
       <label for="player2">Player 2:</label><br>
-      <input type="text" id="player2" name="player2"><br>
+      <input type="text" id="player2" name="player2"><br><br>
       <label for="player3">Player 3:</label><br>
-      <input type="text" id="player3" name="player3"><br>
+      <input type="text" id="player3" name="player3"><br><br>
       <label for="player4">Player 4:</label><br>
       <input type="text" id="player4" name="player4"><br>
+      <h3>Role:</h3>
+      <label for="resistance">Resistance</label>
+      <input type="radio" id="resistance" name="role"><br>
+      <label for="spy">Spy</label>
+      <input type="radio" id="spy" name="role"><br><br>
+      <input type="text" id="other-spy" placeholder="Name of other spy">
+      <p style="font-size:x-small">(Leave blank if none)</p>
+      <br>
+      <button type="submit">Start Game</button>
     </form> 
   </body>
 </html>

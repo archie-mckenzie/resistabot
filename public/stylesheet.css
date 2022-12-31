@@ -5,3 +5,20 @@ body {
 input {
     font-family: 'Courier New', Courier, monospace
 }
+button {
+    min-width:200px;
+    min-height:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+.response {
+    min-height:300px;
+    min-width: 200px;
+    height: 40vh;
+    width: 40vw;
+    font-size: x-large;
+}
+hr {
+    width: 50vw;
+}
