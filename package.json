@@ -1,0 +1,25 @@
+{
+  "name": "resistabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archie-mckenzie/resistabot.git"
+  },
+  "author": "Archie McKenzie, Henri Righetti, James Purser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/archie-mckenzie/resistabot/issues"
+  },
+  "homepage": "https://github.com/archie-mckenzie/resistabot#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
