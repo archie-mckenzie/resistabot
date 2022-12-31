@@ -5,6 +5,17 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
+const max_failed_teams = 5;
+
+const modes = {5: {
+  num_of_spies: 2,
+  num_of_resistance: 3 ,
+  rounds: [2, 3, 2, 3, 3]
+}};
+
+// function play_game(modes) {
+
+// }
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
